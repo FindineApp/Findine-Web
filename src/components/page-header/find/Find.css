@@ -9,8 +9,7 @@
     border-radius: 7rem;
     width: 16vh;
     height: 16vh;
-    padding: 3.5rem;
     left: 50%;
-    top: 34vh;
+    top: 33vh;
     transform: translateX(-50%);
 }
