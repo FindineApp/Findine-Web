@@ -1,12 +1,12 @@
 import './App.css';
-import { Map } from './components/map/Map';
-import { Search } from './components/search/Search';
+import Header from './components/page-header/Header';
+import { Search } from './components/page-main/search/Search';
 
 function App() {
   return (
     <div className="App">
       <h1 className='title'>Findine</h1>
-      <Map />
+      <Header />
       <Search />
     </div>
   );

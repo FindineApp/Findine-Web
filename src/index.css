@@ -15,4 +15,5 @@ code {
 h1 {
   color: rgb(246, 147, 74);
   font-size: 3.5rem;
+  height: 8vh;
 }
