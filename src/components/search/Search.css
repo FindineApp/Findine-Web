@@ -1,0 +1,15 @@
+.search-bar input {
+    width: 80%;
+    height: 3rem;
+    background-color: rgb(230, 230, 230);
+    color: rgb(119, 119, 119);
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+.search-bar button {
+    width: 10%;
+    height: 3rem;
+    padding: 0.5rem;
+    margin: 1rem;
+}
