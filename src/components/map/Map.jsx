@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState } from 'react';
 import './Map.css'
 import { GoogleMap, useLoadScript } from "@react-google-maps/api";
 
@@ -8,13 +9,13 @@ export const Map = () => {
 
   const getUserLocation = () => {
     if (!navigator.geolocation) {
-      setStatus('Geolocation is not supported by your browser');
+      console.log('Geolocation is not supported by your browser');
     } else {
       navigator.geolocation.getCurrentPosition((position) => {
         setLat(position.coords.latitude);
         setLng(position.coords.longitude);
       }, () => {
-        setStatus('Unable to retrieve your location');
+        console.log('Unable to retrieve your location');
       });
     }
   }
