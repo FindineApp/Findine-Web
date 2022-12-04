@@ -3,6 +3,7 @@ import Navigation from './components/navigation/Navigation';
 import Find from './components/find/Find';
 import { Map } from './components/map/Map';
 import { Search } from './components/search/Search';
+import Places from './components/places/Places';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Find id='find'/>
         <Map />
         <Search id='search'/>
+        <Places id='browse'/>
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Find.css'
+import { Link } from "react-router-dom";
 
 const Find = () => {
 
@@ -8,11 +9,13 @@ const Find = () => {
   }
   
   return (
-    <button 
-      className='find'
-      onClick={findPlace}>
-    Find
-    </button>
+    <Link to="/placedetails">
+      <button 
+        className='find'
+        onClick={findPlace}>
+      Find
+      </button>
+    </Link>
   )
 }
 
