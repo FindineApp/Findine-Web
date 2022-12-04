@@ -3,7 +3,6 @@ import './Find.css'
 import { Link } from "react-router-dom";
 
 const Find = () => {
-
   const findPlace = () => {
 
   }

@@ -1,3 +1,4 @@
+import { data } from 'jquery';
 import React from 'react'
 
 const Place = (props) => {
