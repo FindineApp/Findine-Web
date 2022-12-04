@@ -1,13 +1,18 @@
 import './App.css';
-import Header from './components/page-header/Header';
-import { Search } from './components/page-main/search/Search';
+import Navigation from './components/navigation/Navigation';
+import Find from './components/find/Find';
+import { Map } from './components/map/Map';
+import { Search } from './components/search/Search';
 
 function App() {
   return (
     <div className="App">
-      <h1 className='title'>Findine</h1>
-      <Header />
-      <Search />
+      <div className='page-header'>
+        <Navigation />
+        <Find id='find'/>
+        <Map />
+        <Search id='search'/>
+      </div>
     </div>
   );
 }

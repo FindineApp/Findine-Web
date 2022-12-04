@@ -14,6 +14,11 @@ code {
 
 h1 {
   color: rgb(246, 147, 74);
-  font-size: 3.5rem;
-  height: 8vh;
+  font-size: 3rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
