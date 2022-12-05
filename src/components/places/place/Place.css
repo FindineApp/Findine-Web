@@ -1,0 +1,28 @@
+.place {
+    width: 80vw;
+    height: 20vh;
+}
+
+.place img {
+    background-color: white;
+    height: 20vh;
+    width: 80vw;
+    overflow: hidden;
+    object-fit: cover;   
+    object-position: center;
+}
+
+.placeAttributes {
+    display: flex;
+    flex-direction: column;
+}
+
+.placeAttributesTop {
+    display: flex;
+    flex-direction: row;
+}
+
+.placeAttributesBot {
+    display: flex;
+    flex-direction: row;
+}

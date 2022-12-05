@@ -1,14 +1,14 @@
-/*
 class ApiService {
-    static readonly apiKey: string = "AIzaSyA1r74F89lUC_UioBorQ-osgkA0Rcx1IUY";
-    static readonly baseUrl: string = "https://maps.googleapis.com/maps/api/place";
+    static readonly apiKey = "AIzaSyA1r74F89lUC_UioBorQ-osgkA0Rcx1IUY";
+    static readonly baseUrl = "https://maps.googleapis.com/maps/api/place";
 
-    getPlaces(): google.maps.places.PlaceResult[] {
-        const result: google.maps.places.PlaceResult[] = 
-			fetch(`${ApiService.baseUrl}/nearbysearch/json?location=-33.8670522%2C151.1957362&radius=1500&type=restaurant&keyword=cruise&key=YOUR_API_KEY'`)
-				.then((response) => response.json())
-				.then((data) => data);
-		return result;
+    getPlaces(): Promise<google.maps.places.PlaceResult[]> {
+        return fetch(`${ApiService.baseUrl}/nearbysearch/json?location=-33.8670522%2C151.1957362&radius=1500&type=restaurant&keyword=cruise&key=${ApiService.apiKey}'`)
+			.then((response) => response.json())
+			.then((data) => {return data})
+			.catch(error => {
+				console.error(error);
+			});
     }
 
  //   getPlaceDetails(placeId: string): google.maps.places.PlaceResult {
@@ -17,4 +17,3 @@ class ApiService {
  //       return data;
   //  }
 }
-*/
