@@ -1,0 +1,15 @@
+import React from 'react'
+import Place from './place/Place';
+
+const Places = () => {
+
+  // fetch api call 
+
+  return (
+    <div>
+        <Place />
+    </div>
+  )
+}
+
+export default Places

@@ -1,0 +1,26 @@
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    width: 80%;
+    height: 3rem;
+    background-color: white;
+    color: rgb(119, 119, 119);
+    padding: 0.5rem 2rem;
+    margin: 1rem;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 0.3rem 0.3rem 1.3rem rgb(0 0 0 / 0.2);;
+}
+
+.search-bar button {
+    background-color: rgb(246, 147, 74);;
+    color: white;
+    width: 10%;
+    height: 3rem;
+    padding: 0.5rem;
+    margin: 1rem;
+    border: none;
+    border-radius: 2rem;
+}
