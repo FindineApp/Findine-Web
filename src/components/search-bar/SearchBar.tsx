@@ -1,14 +1,13 @@
 import React from 'react'
-import './Search.css'
+import './SearchBar.css'
 
-export const Search = () => {
+export const SearchBar = () => {
   return (
-    <div className='search-bar'>
+    <div id='search' className='search-bar'>
       <input 
         type="text"
         placeholder="eg. Italian, Pizza, Sweets"
       />
-      <button>Search</button>
     </div>
   )
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import './Find.css'
+import './Finder.css'
 import { Link } from "react-router-dom";
 
 const Find = () => {

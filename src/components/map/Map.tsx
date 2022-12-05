@@ -15,6 +15,7 @@ export const Map = () => {
   
   return (
     <GoogleMap 
+      id='find'
       zoom={10} 
       center={{lat: 44, lng: -80}}
       mapContainerClassName="map-container"
