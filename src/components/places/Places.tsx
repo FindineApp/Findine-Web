@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Place from './place/Place';
+import ApiService from '../../scripts/ApiService';
 
 const Places: React.FC = () => {
   const [places, setPlaces] = useState<google.maps.places.PlaceResult[]>()
