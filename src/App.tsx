@@ -4,18 +4,19 @@ import Finder from './components/finder/Finder';
 import { Map } from './components/map/Map';
 import { SearchBar } from './components/search-bar/SearchBar';
 import Places from './components/places/Places';
+import { Route, Routes } from 'react-router-dom';
+import Home from './components/home/Home';
 
 function App() {
   return (
-    <div className="App">
-      <div className='page-header'>
-        <Navigation />
-        <Finder/>
-        <Map />
-        <SearchBar/>
-        <Places/>
-      </div>
-    </div>
+    <main className="App">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Map />} />
+        <Route path="/pets" element={<SearchBar />} />
+        <Route path="/addPets" element={<Places />} />
+      </Routes> 
+    </main>
   );
 }
 
