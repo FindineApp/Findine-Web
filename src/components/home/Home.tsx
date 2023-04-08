@@ -14,7 +14,7 @@ const Home = () => {
         <div className='page-hero'>
             <div className='container'>
                 <h1>Findine</h1>
-                <p>Find Your Desired Dine</p>
+                <p>Find Your Perfect Dine</p>
                 <a className="btn" href="#">Learn More</a>
             </div>
         </div>
@@ -45,6 +45,7 @@ const Home = () => {
             </div>
             <div className='browse'>
                 <div className="container">
+                    <img src={Browse} height="400" width="500" />
                     <div className='container-text'>
                         <h2>Browse Nearby Restaurants</h2>
                         <p>Want to explore the local dining scene?</p>

@@ -14,7 +14,7 @@
 .home .page-hero h1 {
   color: #000;
   line-height: 100px;
-  font-size: 100px;
+  font-size: 140px;
   font-family: 'Noto Serif Khojki';
   margin-top: 0;
   margin-bottom: 80px;
@@ -59,6 +59,8 @@
 
 .home .browse img {
     float: left;
+    margin-top: 25px;
+    margin-left: 150px;
 }
 
 .home .search img {
@@ -76,20 +78,7 @@
     font-weight: 100;
 }
 
-.home .browse {
-    background-image: url("../../../public/restuarant2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 450px;
-}
-
 .home .container-text {
     position: relative;
     top: 110px;
-}
-
-.home .browse .container-text {
-    margin-left: 500px;
-    color: #f0f0f0;
 }
