@@ -15,10 +15,10 @@ const Home = () => {
             <div className='container'>
                 <h1>Findine</h1>
                 <p>Find Your Perfect Dine</p>
-                <a className="btn" href="#">Learn More</a>
+                <a className="btn" href="#home-page-body-content">Learn More</a>
             </div>
         </div>
-        <div className='body-content'>
+        <div className='body-content' id='home-page-body-content'>
             <div className='find'>
                 <div className="container">
                     <img src={Find} height="400" width="400" />
@@ -27,7 +27,8 @@ const Home = () => {
                         <p>Out for the day and have trouble deciding where to eat?</p> 
                         <p>With just one click, discover new dining destinations without any of the hassle of decision-making</p>
                         <p>Try it today and take the stress out of dining!</p>
-                        <button className='btn'>Try it Now</button>
+                        <br></br>
+                        <a href='/find' className='btn'>Try it Now</a>
                     </div>
                 </div>
             </div>
@@ -39,7 +40,8 @@ const Home = () => {
                         <p>Prefer a visual way to find nearby restaurants?</p>
                         <p>Use Findine's interactive map to browse through the area and discover local dining options</p>
                         <p>Simply zoom in or out, pan around, and click on a restaurant marker to see more details about the restaurant</p>
-                        <button className='btn'>Start Exploring</button>
+                        <br></br>
+                        <a href='/find' className='btn'>Start Exploring</a>
                     </div>
                 </div>
             </div>
@@ -51,7 +53,8 @@ const Home = () => {
                         <p>Want to explore the local dining scene?</p>
                         <p>Findine allows you to easily browse nearby restaurants and view detailed information for each one,</p>
                         <p>including menus, hours of operation, ratings, and reviews</p>
-                        <button className='btn'>Start Browsing</button>
+                        <br></br>
+                        <a className='btn' href='/browse'>Start Browsing</a>
                     </div>
                 </div>
             </div>
@@ -63,7 +66,8 @@ const Home = () => {
                         <p>Looking for a specific type of cuisine or dish?</p>
                         <p>Use Findine's search feature to find restaurants or food items that match your keywords</p>
                         <p>Whether you're in the mood for sushi, pizza, or vegetarian options, you can quickly find what you're looking for</p>
-                        <button className='btn'>Search Now</button>
+                        <br></br>
+                        <a href='/search' className='btn'>Search Now</a>
                     </div>
                 </div>
             </div>
