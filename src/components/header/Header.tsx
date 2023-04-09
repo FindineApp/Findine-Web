@@ -1,6 +1,6 @@
-import "./Navigation.css";
+import "./Header.css";
 
-const Navigation = () => {
+const Header = () => {
   return (
     <header>
       <nav>
@@ -28,4 +28,4 @@ const Navigation = () => {
   );
 };
 
-export default Navigation;
+export default Header;
