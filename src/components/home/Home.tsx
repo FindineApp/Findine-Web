@@ -1,6 +1,5 @@
-import React from 'react'
 import Footer from '../footer/Footer'
-import Navigation from '../navigation/Navigation'
+import Header from '../header/Header'
 import Map from '../../img/map.jpg'
 import Browse from '../../img/browse.jpg'
 import Search from '../../img/search.jpg'
@@ -10,7 +9,7 @@ import './Home.css'
 const Home = () => {
   return (
     <div className='home'>
-        <Navigation />
+        <Header />
         <div className='page-hero'>
             <div className='container'>
                 <h1>Findine</h1>

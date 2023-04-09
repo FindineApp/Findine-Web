@@ -48,25 +48,25 @@
 .home .find img {
   float: left;
   margin-top: 25px;
-  margin-left: 150px;
+  margin-left: 10vw;
 }
 
 .home .map img {
   float: right;
   margin-top: 25px;
-  margin-right: 150px;
+  margin-right: 10vw;
 }
 
 .home .browse img {
   float: left;
   margin-top: 25px;
-  margin-left: 150px;
+  margin-left: 10vw;
 }
 
 .home .search img {
   float: right;
   margin-top: 25px;
-  margin-right: 150px;
+  margin-right: 10vw;
 }
 
 .home .body-content .container {
