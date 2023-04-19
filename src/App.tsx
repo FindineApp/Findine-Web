@@ -1,7 +1,6 @@
 import './App.css';
 import Header from './components/header/Header';
 import Finder from './components/finder/Finder';
-import { Map } from './components/map/Map';
 import { Search } from './components/search/Search';
 import Places from './components/places/Places';
 import { Route, Routes } from 'react-router-dom';
